@@ -7,8 +7,10 @@
                 <h1 class="text-white">Vyhľadať v databáze obcí</h1>
                 <div class="main-form">
                     <form action="" method="GET">
-                        <input class="form-control" type="text" placeholder="Zadajte názov|" value="">
+                        <input class="form-control" id="autocompleteInput" type="text" placeholder="Zadajte názov|" value="">
                     </form>
+                    <div id="autocompleter" class="bg-white">
+                    </div>
                 </div>
             </div>
         </div>
