@@ -1,0 +1,112 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '../../../countries/node_modules/bootstrap/scss/bootstrap';
+
+@media (min-width: 576px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    header {
+        .container-links {
+            max-width: 1400px;
+        }
+        img {
+            max-width: 150px;
+        }
+        p {
+            color: $primary;
+            font-weight: bold;
+            margin-left: 2rem;
+        }
+        form {
+            max-width: 10rem;
+            button {
+                margin-left: -2.5rem;
+            }
+        }
+        .login-button {
+            background-color: $login-button-bg;
+            border-color: $login-button-bg;
+            margin-left: 1rem;
+            &:hover{
+                background-color: $login-button-hover-bg;
+                border-color: $login-button-hover-bg;
+            }
+        }
+    }
+
+    nav {
+        max-width: 1400px;
+        margin: auto;
+        font-size: 120%;
+        font-weight: bold;
+        a {
+            text-decoration: none;
+            color: $secondary;
+        }
+    }
+
+    main {
+        border-top: 2px solid #ccc !important;
+        border-color: $footer-bg !important;
+        .wrapper {
+            background: $primary;
+            background: linear-gradient(360deg, rgb(4, 196, 255) 0%, rgb(1, 130, 210) 100%);
+        }
+        .container-links {
+            max-width: 1400px;
+            min-height: 30rem;
+        }
+        .main-form {
+            max-width: 30rem;
+            margin: 0 auto;
+            box-shadow: 0px 0px 5px #575757;
+        }
+        .main-form-wrapper {
+            margin-top: 10rem;
+        }
+        .detail-text {
+            background-color: $footer-bg;
+        }
+        .detail-table {
+            box-shadow: 0px 0px 8px #a6a6a6;
+        }
+    }
+
+    footer {
+        background-color: $footer-bg;
+        .container-links {
+            max-width: 1450px;
+        }
+        ul {
+            list-style-type:none;
+            li {
+                color: $secondary;
+            }
+            &:before{
+                content: attr(aria-label);
+                font-weight: 900;
+                font-size: small;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
