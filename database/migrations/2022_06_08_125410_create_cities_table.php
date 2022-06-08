@@ -15,13 +15,13 @@ return new class extends Migration
     {
         Schema::create('cities', function (Blueprint $table) {
             $table->id();
-            $table->string('name', 128);
+            $table->string('name', 256);
             $table->string('mayor_name', 128);
             $table->string('city_hall_address', 128);
-            $table->string('phone', 32);
-            $table->string('fax', 32);
-            $table->string('email', 256);
-            $table->string('web_address', 256);
+            $table->string('phone', 128);
+            $table->string('fax', 128)->nullable();
+            $table->string('email', 256)->nullable();
+            $table->string('web_address', 256)->nullable();
             $table->timestamps();
         });
     }

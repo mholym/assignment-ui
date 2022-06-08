@@ -12,42 +12,42 @@
                         <strong>Meno starostu:</strong>
                     </div>
                     <div class="col-6 p-2">
-                        $city->mayor_name
+                        {{$city->mayor_name}}
                     </div>
                     <div class="col-6 p-2">
                         <strong>Adresa obecného úradu:</strong>
                     </div>
                     <div class="col-6 p-2">
-                        $city->city_hall_address
+                        {{$city->city_hall_address}}
                     </div>
                     <div class="col-6 p-2">
                         <strong>Telefón:</strong>
                     </div>
                     <div class="col-6 p-2">
-                        $city->phone
+                        {{$city->phone}}
                     </div>
                     <div class="col-6 p-2">
                         <strong>Fax:</strong>
                     </div>
                     <div class="col-6 p-2">
-                        $city->fax
+                        {{$city->fax}}
                     </div>
                     <div class="col-6 p-2">
                         <strong>Email:</strong>
                     </div>
                     <div class="col-6 p-2">
-                        $city->email
+                        {{$city->email}}
                     </div>
                     <div class="col-6 p-2">
                         <strong>Web:</strong>
                     </div>
                     <div class="col-6 p-2">
-                        $city->web_address
+                        {{$city->web_address}}
                     </div>
                 </div>
             </div>
             <div class="col-6 p-5 text-center">
-                <h2>$city->name</h2>
+                <h2>{{$city->name}}</h2>
             </div>
         </div>
     </div>
